@@ -1,0 +1,30 @@
+{
+  "name": "NodeExpressMongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start-watch": "nodemon src/index.js",
+    "test": "mocha --inspect-brk || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.7.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "*",
+    "request": "*"
+  }
+}
